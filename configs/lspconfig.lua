@@ -4,6 +4,7 @@ local lspconfig = require("lspconfig")
 local merge_tb = vim.tbl_deep_extend
 
 local servers = {
+  "astro",
 	"gopls",
 	"svelte",
 	"tsserver",
