@@ -18,7 +18,6 @@ M.add = {
     fg = "grey_fg2",
     italic = true,
   },
-  -- NvimTreeOpenedFolderName = { fg = "green", bold = true },
 }
 
 return M
