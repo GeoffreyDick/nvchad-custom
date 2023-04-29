@@ -35,32 +35,32 @@ local server_options = {
 		},
 	},
 
-	tsserver = {
-		settings = {
-			typescript = {
-				inlayHints = {
-					includeInlayParameterNameHints = "all",
-					includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-					includeInlayFunctionParameterTypeHints = true,
-					includeInlayVariableTypeHints = true,
-					includeInlayPropertyDeclarationTypeHints = true,
-					includeInlayFunctionLikeReturnTypeHints = true,
-					includeInlayEnumMemberValueHints = true,
-				},
-			},
-			javascript = {
-				inlayHints = {
-					includeInlayParameterNameHints = "all",
-					includeInlayParameterNameHintsWhenArgumentMatchesName = false,
-					includeInlayFunctionParameterTypeHints = true,
-					includeInlayVariableTypeHints = true,
-					includeInlayPropertyDeclarationTypeHints = true,
-					includeInlayFunctionLikeReturnTypeHints = true,
-					includeInlayEnumMemberValueHints = true,
-				},
-			},
-		},
-	},
+	-- tsserver = {
+		-- settings = {
+	-- 		typescript = {
+	-- 			inlayHints = {
+	-- 				includeInlayParameterNameHints = "all",
+	-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+	-- 				includeInlayFunctionParameterTypeHints = true,
+	-- 				includeInlayVariableTypeHints = true,
+	-- 				includeInlayPropertyDeclarationTypeHints = true,
+	-- 				includeInlayFunctionLikeReturnTypeHints = true,
+	-- 				includeInlayEnumMemberValueHints = true,
+	-- 			},
+	-- 		},
+	-- 		javascript = {
+	-- 			inlayHints = {
+	-- 				includeInlayParameterNameHints = "all",
+	-- 				includeInlayParameterNameHintsWhenArgumentMatchesName = false,
+	-- 				includeInlayFunctionParameterTypeHints = true,
+	-- 				includeInlayVariableTypeHints = true,
+	-- 				includeInlayPropertyDeclarationTypeHints = true,
+	-- 				includeInlayFunctionLikeReturnTypeHints = true,
+	-- 				includeInlayEnumMemberValueHints = true,
+	-- 			},
+	-- 		},
+	-- 	},
+	-- },
 
 	lua_ls = {
 		settings = {
